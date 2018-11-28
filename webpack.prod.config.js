@@ -66,7 +66,6 @@ module.exports = {
       template: __dirname + '/src/index.html',
       filename: 'index.html',
       inject: 'body'
-    }),
-    new webpack.optimize.UglifyJsPlugin()
+    })
   ]
 };
